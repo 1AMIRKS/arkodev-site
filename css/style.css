@@ -104,7 +104,10 @@ body {
     background-color: var(--color-bone);
     color: var(--color-ink);
 }
-
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* =========================
    Layout
@@ -141,8 +144,4 @@ body {
 
 .signal {
     color: var(--color-signal);
-}
-header {
-   diaplay:flex;
-   display
 }
