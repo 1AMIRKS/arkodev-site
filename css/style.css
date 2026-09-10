@@ -10,10 +10,19 @@
     --color-stone: #8A8A84;
     --color-bone: #F5F3EF;
     --color-signal: #7C8F7A;
-   /* Typography */
 
---font-english: "Geist", "Satoshi", Arial, sans-serif;
---font-persian: "Peyda", "Estedad", Arial, sans-serif;
+    /* Typography */
+    --font-english: "Geist", "Satoshi", Arial, sans-serif;
+    --font-persian: "Peyda", "Estedad", Arial, sans-serif;
+
+    /* Type Scale */
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-md: 16px;
+    --text-lg: 20px;
+    --text-xl: 32px;
+    --text-2xl: 48px;
+    --text-3xl: 64px;
 
     /* Layout */
     --container-width: 1400px;
@@ -25,30 +34,26 @@
     --space-lg: 40px;
     --space-xl: 64px;
     --space-2xl: 96px;
-   
-   /* Borders */
 
---border-width: 1px;
---border-style: solid;
---border-color: var(--color-stone);
+    /* Borders */
+    --border-width: 1px;
+    --border-style: solid;
+    --border-color: var(--color-stone);
 }
 
-/* Type Scale */
 
---text-xs: 12px;
---text-sm: 14px;
---text-md: 16px;
---text-lg: 20px;
---text-xl: 32px;
---text-2xl: 48px;
---text-3xl: 64px;
-
-/* Typography */
+/* =========================
+   Typography
+========================= */
 
 body {
     font-family: var(--font-persian);
     font-size: var(--text-md);
     line-height: 1.7;
+}
+
+[lang="en"] {
+    font-family: var(--font-english);
 }
 
 h1,
@@ -80,6 +85,8 @@ p {
     font-size: var(--text-md);
     line-height: 1.7;
 }
+
+
 /* =========================
    Base
 ========================= */
@@ -96,11 +103,8 @@ body {
     margin: 0;
     background-color: var(--color-bone);
     color: var(--color-ink);
-    font-family: var(--font-persian);
-   [lang="en"] {
-    font-family: var(--font-english);
 }
-}
+
 
 /* =========================
    Layout
@@ -110,10 +114,13 @@ body {
     width: min(100% - 48px, var(--container-width));
     margin-inline: auto;
 }
+
 .grid {
     display: grid;
     gap: var(--space-md);
 }
+
+
 /* =========================
    Utilities
 ========================= */
@@ -122,6 +129,7 @@ body {
     width: 100%;
     border-top: var(--border-width) var(--border-style) var(--border-color);
 }
+
 .section-marker {
     display: flex;
     align-items: center;
@@ -130,6 +138,7 @@ body {
     font-size: var(--text-sm);
     color: var(--color-stone);
 }
+
 .signal {
     color: var(--color-signal);
 }
