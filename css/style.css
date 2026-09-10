@@ -25,9 +25,60 @@
     --space-lg: 40px;
     --space-xl: 64px;
     --space-2xl: 96px;
+   
+   /* Borders */
 
-    /* Borders */
-    --border-width: 1px;
+--border-width: 1px;
+--border-style: solid;
+--border-color: var(--color-stone);
+}
+
+/* Type Scale */
+
+--text-xs: 12px;
+--text-sm: 14px;
+--text-md: 16px;
+--text-lg: 20px;
+--text-xl: 32px;
+--text-2xl: 48px;
+--text-3xl: 64px;
+
+/* Typography */
+
+body {
+    font-family: var(--font-persian);
+    font-size: var(--text-md);
+    line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--text-3xl);
+    line-height: 1.05;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: var(--text-2xl);
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: var(--text-xl);
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+p {
+    font-size: var(--text-md);
+    line-height: 1.7;
 }
 /* =========================
    Base
@@ -50,6 +101,7 @@ body {
     font-family: var(--font-english);
 }
 }
+
 /* =========================
    Layout
 ========================= */
@@ -61,4 +113,23 @@ body {
 .grid {
     display: grid;
     gap: var(--space-md);
+}
+/* =========================
+   Utilities
+========================= */
+
+.divider {
+    width: 100%;
+    border-top: var(--border-width) var(--border-style) var(--border-color);
+}
+.section-marker {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+
+    font-size: var(--text-sm);
+    color: var(--color-stone);
+}
+.signal {
+    color: var(--color-signal);
 }
