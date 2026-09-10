@@ -104,9 +104,8 @@ body {
     background-color: var(--color-bone);
     color: var(--color-ink);
 }
-header {
+header .container {
     display: flex;
-    justify-content: space-between;
 }
 
 /* =========================
