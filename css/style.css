@@ -50,3 +50,15 @@ body {
     font-family: var(--font-english);
 }
 }
+/* =========================
+   Layout
+========================= */
+
+.container {
+    width: min(100% - 48px, var(--container-width));
+    margin-inline: auto;
+}
+.grid {
+    display: grid;
+    gap: var(--space-md);
+}
