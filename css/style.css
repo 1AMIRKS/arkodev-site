@@ -10,6 +10,10 @@
     --color-stone: #8A8A84;
     --color-bone: #F5F3EF;
     --color-signal: #7C8F7A;
+   /* Typography */
+
+--font-english: "Geist", "Satoshi", Arial, sans-serif;
+--font-persian: "Peyda", "Estedad", Arial, sans-serif;
 
     /* Layout */
     --container-width: 1400px;
@@ -41,4 +45,8 @@ body {
     margin: 0;
     background-color: var(--color-bone);
     color: var(--color-ink);
+    font-family: var(--font-persian);
+   [lang="en"] {
+    font-family: var(--font-english);
+}
 }
