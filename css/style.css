@@ -1,4 +1,31 @@
 /* =========================
+   ARKODEV Design Tokens
+========================= */
+
+:root {
+
+    /* Colors */
+    --color-ink: #111111;
+    --color-graphite: #2B2B2B;
+    --color-stone: #8A8A84;
+    --color-bone: #F5F3EF;
+    --color-signal: #7C8F7A;
+
+    /* Layout */
+    --container-width: 1400px;
+
+    /* Spacing */
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 40px;
+    --space-xl: 64px;
+    --space-2xl: 96px;
+
+    /* Borders */
+    --border-width: 1px;
+}
+/* =========================
    Base
 ========================= */
 
