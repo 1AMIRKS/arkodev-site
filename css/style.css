@@ -108,6 +108,11 @@ header .container {
     display: flex;
     justify-content: space-between;
     width: 100%;
+   align-items: center;
+}
+header nav {
+    display: flex;
+    gap: var(--space-md);
 }
 /* =========================
    Layout
