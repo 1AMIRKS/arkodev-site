@@ -166,5 +166,5 @@ a:hover {
 }
 text-decoration: none;
 main .hero {
-    padding: 96px 0px;
+    padding: var(--space-2xl);
 }
