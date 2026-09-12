@@ -168,4 +168,5 @@ text-decoration: none;
 .hero {
     padding: var(--space-2xl);
     max-width: 800px;
+    background-color: red;
 }
