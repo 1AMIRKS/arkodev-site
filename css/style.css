@@ -167,5 +167,5 @@ a:hover {
 text-decoration: none;
 .hero {
     padding: var(--space-2xl);
-    maxwidth: 800px;
+    max-width: 800px;
 }
