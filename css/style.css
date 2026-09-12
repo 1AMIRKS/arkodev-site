@@ -150,3 +150,9 @@ header nav {
 .signal {
     color: var(--color-signal);
 }
+
+/* css هدر*/
+a:hover {
+    color: var(--color-signal);
+    opacity: 0.8;
+}
