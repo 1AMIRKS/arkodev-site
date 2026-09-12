@@ -164,7 +164,6 @@ a:hover {
     color: var(--color-signal);
     opacity: 0.8;
 }
-text-decoration: none;
 main .hero {
     padding: var(--space-2xl);
     max-width: 800px;
