@@ -104,15 +104,9 @@ body {
     background-color: var(--color-bone);
     color: var(--color-ink);
 }
-header .container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-   align-items: center;
-}
-header nav {
-    display: flex;
-    gap: var(--space-md);
+a {
+    text-decoration: none;
+    color: var(--color-ink);
 }
 /* =========================
    Layout
@@ -150,9 +144,22 @@ header nav {
 .signal {
     color: var(--color-signal);
 }
+/*=================
+    css هدر
+=================*/
 
-/* css هدر*/
+header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   align-items: center;
+}
+header nav {
+    display: flex;
+    gap: var(--space-md);
+}
 a:hover {
     color: var(--color-signal);
     opacity: 0.8;
 }
+text-decoration: none;
